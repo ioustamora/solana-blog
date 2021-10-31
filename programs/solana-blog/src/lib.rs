@@ -12,3 +12,8 @@ pub mod solana_blog {
 
 #[derive(Accounts)]
 pub struct Initialize {}
+
+#[account]
+pub struct MyAccount {
+    pub data: u64,
+}
